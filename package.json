@@ -1,0 +1,22 @@
+{
+  "name": "v20scp",
+  "version": "0.0.1",
+  "description": "Node scp data",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garethcmurphy/nodescp.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node index.ts"
+  },
+  "author": "Gareth Murphy <garethcmurphy@gmail.com> (https://github.com/garethcmurphy)",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@types/node": "^12.0.7",
+    "scp2": "^0.5.0",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.1"
+  }
+}
